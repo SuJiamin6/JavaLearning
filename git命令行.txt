@@ -1,0 +1,14 @@
+1.git init,初始化仓库
+2.git add 文件 把想要上传的文件进行添加，相当于将想要提交的文件打钩。
+第一次进行提交的时候要将本地仓库和远程仓库联系起来
+(3.boss) git remote add origin 远程仓库地址(github仓库地址)
+3.git commit -m '注释' 提交到缓存区的
+4.git push origin master 从缓存区提交到github官网上的主分支上
+5.git branch gh-pages创建好我们用来展示页面需要用的分支
+6.git push origin gh-pages 将想要放在该分支上的内容提交到这个分支上
+7.提交号之后就通过对应网址进行访问了
+https://用户名.github.io/仓库名/文件所在路径
+
+
+
+
